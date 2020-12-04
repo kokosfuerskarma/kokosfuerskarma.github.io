@@ -7,7 +7,7 @@
 	$ig = new instagram_basic_display_api( $params )
 ?>
 <h1>Instagram Basic Disply API</h1>
-<a href="<?php $ig->authorizationUrl; ?>">
+<a href="<?php echo $ig->authorizationUrl; ?>">
 	Authorize w/Instgram
 	
 </a>
